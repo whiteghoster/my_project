@@ -168,10 +168,11 @@ p {
     left: 150px;
 }
 
-button{
-   background-color: #ffffff;
+#Downloadbtn{
+    background-color: #ffffff;
     font-weight: 600;
     padding: 8px 12px;
-    border:#020202;
     border-radius:10px;
 }
+
+ 
