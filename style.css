@@ -14,7 +14,8 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    background-color: #f3f5f8;
+    background-color: #020202;
+     background: linear-gradient(45deg, #2d15b8, rgb(0, 0, 0));
 }
 
 nav {
@@ -30,7 +31,7 @@ nav {
     display: flex;
     font-size: 40px;
     font-weight: 800;
-    color: #3d535f;
+    color: #ffffff;
     letter-spacing: 3px;
     cursor: pointer;
     text-transform: uppercase;
@@ -51,7 +52,7 @@ span {
 
 .navItems li a {
     font-size: 23px;
-    color: #3d535f;
+    color: #ffffff;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;
@@ -65,7 +66,7 @@ span {
 
 .links a {
     font-size: 30px;
-    color: #3d535f;
+    color: #ffffff;
     margin: 25px 10px;
 }
 
@@ -79,7 +80,7 @@ span {
     overflow: hidden;
 }
 
-.wrapper::before{
+.wrapper::before {
     position: absolute;
     content: '';
     height: 600px;
@@ -87,11 +88,11 @@ span {
     border-radius: 50%;
     left: -12%;
     top: 40%;
-    background: linear-gradient(45deg,#7f00ff,pink);
+    background: linear-gradient(45deg, #7f00ff, pink);
     animation: object1 6s linear infinite;
 }
 
-.wrapper::after{
+.wrapper::after {
     position: absolute;
     content: '';
     height: 200px;
@@ -99,19 +100,19 @@ span {
     border-radius: 50%;
     left: 35%;
     top: 12%;
-    background: linear-gradient(45deg,#7f00ff,pink);
+    background: linear-gradient(45deg, #7f00ff, pink);  
     animation: object2 6s linear infinite;
 }
 
 @keyframes object1 {
-    50%{
+    50% {
         left: -10%;
         top: 40%;
     }
 }
 
 @keyframes object2 {
-    50%{
+    50% {
         left: 36%;
         top: 12%;
     }
@@ -121,9 +122,9 @@ span {
     width: 50%;
 }
 
-.cols0{
+.cols0 {
     width: 60%;
-  z-index: 5;  
+    z-index: 5;
 }
 
 .topline {
@@ -146,11 +147,11 @@ h1 {
     display: block;
     font-size: 3em;
     font-weight: 700;
-    color: #3d535f;
+    color: #fcfcfc;
 }
 
 .multitext {
-    color: #7f007f;
+    color: #ffffff;
     text-transform: capitalize;
 }
 
@@ -158,7 +159,7 @@ p {
     display: block;
     width: 90%;
     font-size: 1.2em;
-    color: #3d535f;
+    color: #ffffff;
 }
 
 .btn {
@@ -167,41 +168,8 @@ p {
     left: 150px;
 }
 
-button {
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 400;
-    color: #fff;
-    background-color: #3d535f;
-    padding: 8px 14px;
-    margin: 40px 5px;
-    letter-spacing: 2px;
-    text-transform: capitalize;
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
-}
+button{
+    background-color: #ffffff;
+    font-weight: 600;
 
-button:hover {
-    background-color: #7f007f;
 }
-
-/*.imgbox {
-    position: relative;
-    width: 100%;
-    height: 120%;
-}
-
-.imgbox img {
-    position: relative;
-    height: 120%;
-    width: 100%;
-    transform:rotateY('180deg');
-}
-
-.imgbox #splash{
-width: 100%;
-height: 55vh;
-filter:saturate(200%);
-border-radius: 100px;
-}*/
