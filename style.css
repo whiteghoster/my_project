@@ -262,11 +262,11 @@ body.menu-open .wrapper {
         backdrop-filter: blur(4px);
         flex-direction: column;
         position: absolute;
-        top: 80px;
+        top: 100px;
         right: 0;
-        background-color: #111;
+        background-color: #000000;
         width: 50%;
-        height: 35vh;
+        height: 50vh;
         justify-content: center;
         align-items: center;
         display: none;
@@ -288,13 +288,14 @@ body.menu-open .wrapper {
     }
 
     .navItems li {
-        margin: 20px 0;
+        margin: 1px ;
+        background-color: grey;
     }
 
     nav {
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 20px;
+        padding: 0 10px;
         height: 60px;
     }
 
@@ -303,7 +304,7 @@ body.menu-open .wrapper {
     }
 
     .navItems li a {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .topline {
