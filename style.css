@@ -266,7 +266,7 @@ body.menu-open .wrapper {
         right: 0;
         background-color: #000000;
         width: 50%;
-        height: 50vh;
+        height: 100vh;
         justify-content: center;
         align-items: center;
         display: none;
