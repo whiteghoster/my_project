@@ -14,18 +14,15 @@
     <div class="container max-w-full">
         <nav>
             <div class="logo">Anshu<span>man</span></div>
-            <ul class="navItems">
+             <div class="hamburger" id="hamburger">&#9776;</div> <!-- ☰ -->
+            <ul class="navItems" id="navItems">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Blog</a></li>
             
             </ul>
-            <div class="links">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
+           
         </nav>
         <div class="wrapper">
             <div class="cols cols0">
@@ -58,12 +55,25 @@
     <script>
   document.getElementById("Downloadbtn").addEventListener("click", function () {
     const link = document.createElement("a");
+    link.href = "Resume.pdf";
+    link.download = "Anshuman_Resume.pdf"; // optional custom filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   });
 </script>
-   
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navItems = document.getElementById("navItems");
+
+  hamburger.addEventListener("click", () => {
+    navItems.classList.toggle("active");
+    document.body.classList.toggle("menu-open");
+
+    // Toggle icon
+    hamburger.textContent = hamburger.textContent === "☰" ? "✖" : "☰";
+  });
+</script>
 </body>
 
 </html>
