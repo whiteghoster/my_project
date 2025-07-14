@@ -3,9 +3,6 @@ This is a personal portfolio website built using HTML, CSS, and JavaScript. The 
 
 # features
 1. Detailed personal and professional information.
-
-2.Responsive layout for desktop and mobile.
-
+2. Responsive layout for desktop and mobile.
 3. Downloadable Resume.
-
-4.Interactive elements powered by JavaScript.
+4. Interactive elements powered by JavaScript.
